@@ -24,7 +24,7 @@ Testing the webserver.
 '''
 from http.server import HTTPServer,BaseHTTPRequestHandler
 
-content='''
+content="""
 <html>
     <body>
     My laptop configuration
@@ -56,7 +56,7 @@ content='''
      </table>
     </body>
 </html>
-'''
+"""
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
